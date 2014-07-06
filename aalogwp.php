@@ -59,10 +59,10 @@ class aalogwp_loader {
 
 		include_once plugin_dir_path( __FILE__ ) . 'aalog.php';
 
-		$logdir = wp_upload_dir();
-		$logdir = $logdir['basedir'] . '/aalogwp/';
-		if (!empty($logdir['error'])) {
-			$this->msgs['err'][] = $logdir['error'];
+		$aLogdir = wp_upload_dir();
+		$logdir = $aLogdir['basedir'] . '/aalogwp/';
+		if (!empty($aLogdir['error'])) {
+			$this->msgs['err'][] = $aLogdir['error'];
 		}
 
 		// does the directory exist?
