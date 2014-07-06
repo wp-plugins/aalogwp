@@ -2,7 +2,7 @@
 Contributors: notorioushttp
 Tags: logging, benchmarking
 Requires at least: 3.0
-Tested up to: 3.6.2
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -40,3 +40,7 @@ Documentation for the aaLogWP plugin, which includes the aaLog class, can also b
 
 = 1.0.1 (2014-06-23) =
 * Moved output directory to uploads/aalogwp/.
+
+= 1.0.2 (2014-07-06) =
+* Fixed $logdir to $aLogdir. Showed an error on some PHP installations.
+* Added banners with the log lady for the repo plugin page.

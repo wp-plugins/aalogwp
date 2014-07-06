@@ -3,7 +3,7 @@
 Plugin Name: aaLog
 Plugin URI: http://notoriouswebmaster.com/
 Description: Allows logging data to a logfile.
-Version: 1.0.1
+Version: 1.0.2
 Author: A. Alfred Ayache
 Copyright: 2014, The Last Byte, inc.
 
